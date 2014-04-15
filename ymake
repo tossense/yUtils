@@ -1,0 +1,4 @@
+srcfile=$1
+fn=${srcfile%.*}
+g++ -O2 -o $fn $*
+
